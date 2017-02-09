@@ -3,6 +3,11 @@
  */
 public class Instructor extends Person {
     String title;
+    Course favCourse;
+
+    public Course getFavCourse() {
+        return favCourse;
+    }
 
     public Instructor(String name, String emailAddress, String title){
         super(name,emailAddress);
